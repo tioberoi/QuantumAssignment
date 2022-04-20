@@ -4,8 +4,14 @@ combinatorial optimisation task
 ### Resources Used
 
 >  [quantum-approximate-optimization-algorithm](https://docs.microsoft.com/en-us/samples/microsoft/quantum/quantum-approximate-optimization-algorithm/)
+
+
 >  [qaoa/QAOA.qs](https://github.com/microsoft/Quantum/blob/main/samples/simulation/qaoa/QAOA.qs)
+
+
 >  [hybrid-quantum-applications](https://devblogs.microsoft.com/qsharp/hybrid-quantum-applications-with-azure-functions/)
+
+
 >  [quickstart-microsoft-qc](https://docs.microsoft.com/en-us/azure/quantum/quickstart-microsoft-qc?pivots=platform-ionq)
 
 ### Steps to run the application
