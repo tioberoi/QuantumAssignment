@@ -53,6 +53,7 @@ output = {
 ```
 ### Function App Aure Host
 The function App is hosted in Azure, but there is an issue with Quantum.Simulators library. I have opened the ticket to resolve the same
+
 [Issue](https://github.com/microsoft/Quantum/issues/657):
 ```
 2022-04-20T14:10:09.756 [Error] Executed 'Function1' (Failed, Id=760ab337-5c5d-4975-8a76-950bb62982ae, Duration=41ms)Could not load file or assembly 
