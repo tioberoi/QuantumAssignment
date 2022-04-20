@@ -3,16 +3,16 @@ combinatorial optimisation task
 
 ### Resources Used
 
-[] https://docs.microsoft.com/en-us/samples/microsoft/quantum/quantum-approximate-optimization-algorithm/
-[] https://github.com/microsoft/Quantum/blob/main/samples/simulation/qaoa/QAOA.qs
-[] https://devblogs.microsoft.com/qsharp/hybrid-quantum-applications-with-azure-functions/
-[] https://docs.microsoft.com/en-us/azure/quantum/quickstart-microsoft-qc?pivots=platform-ionq
+>  [quantum-approximate-optimization-algorithm](https://docs.microsoft.com/en-us/samples/microsoft/quantum/quantum-approximate-optimization-algorithm/)
+>  [qaoa/QAOA.qs](https://github.com/microsoft/Quantum/blob/main/samples/simulation/qaoa/QAOA.qs)
+>  [hybrid-quantum-applications](https://devblogs.microsoft.com/qsharp/hybrid-quantum-applications-with-azure-functions/)
+>  [quickstart-microsoft-qc](https://docs.microsoft.com/en-us/azure/quantum/quickstart-microsoft-qc?pivots=platform-ionq)
 
 ### Steps to run the application
-[] Clone the application
-[] Open QAOA.sln in Visual Studio 2022 (Quantum SDK supported in .net6, .net6 is supported in Visual Studio 2022)
-[] Run the App
-[] Open postman with post req as "http://localhost:7071/api/Function1" and add payload in the body
+* Clone the application
+* Open QAOA.sln in Visual Studio 2022 (Quantum SDK supported in .net6, .net6 is supported in Visual Studio 2022)
+* Run the App
+* Open postman with post req as "http://localhost:7071/api/Function1" and add payload in the body
 
 ```
 {
@@ -35,7 +35,7 @@ combinatorial optimisation task
        }
 }
 ```
-[] Response received is in the format
+* Response received is in the format
 
 ```
 output = {
