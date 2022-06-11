@@ -51,6 +51,33 @@ output = {
        "optimal_parameters" : [[0.5, -2], [0.34, -0.8]],
 }
 ```
+#### Sample I/P 
+```
+{
+    "request_id": "507f1f77bcf86cd799439011",
+      "user_id": "test_user1",
+      "feature_type": "QUBO solve",
+      "input": {
+          "pipeline":{
+              "algorithm" : "QAOA",
+              "depth" : 2,
+              "optimizer" : "Powell",
+              "shots" : 10
+          },
+          "device": "ionq",
+          "qubo": {
+              "num_variables": 4,
+              "edges" : "[(0,1), (0,2), (1,1), (3,3)]",
+              "weights" : "[1,1,-1,1]"
+          }
+       }
+}
+```
+#### Corresponding O/P
+'status' : 'SUCCESS', 'optimal_solution' : [True,False,True,False,True,True], 'optimal_energy': 23.46, 'optimal_parameters': [77.65,75.455,75.485,77.15,75.99,79.145] 
+
+![image](https://user-images.githubusercontent.com/55803680/173182539-18f180d5-d050-4eeb-b4ca-1b1b2e0cda1a.png)
+
 ### Function App Aure Host
 The function App is hosted in Azure, but there is an issue with Quantum.Simulators library. I have opened the ticket to resolve the same
 
